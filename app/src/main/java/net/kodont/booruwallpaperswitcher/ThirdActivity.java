@@ -73,5 +73,9 @@ public class ThirdActivity extends AppCompatActivity {
 
         tagListTextView.setText("");
         addTagEditText.setText("");
+        Toast.makeText(
+                this,
+                "Tags cleared",
+                Toast.LENGTH_SHORT).show();
     }
 }
